@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2 - ApexPlanet Internship</title>
+    <link rel="stylesheet" href="intermediate.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1>Task 2</h1>
+            <ul>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#todo">To-Do List</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <label for="number">Mobile Number:</label>
+            <input type="text" id="number" placeholder="Enter your mobile number">
+
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Write your message here..."></textarea>
+
+            <button type="submit">Submit</button>
+            <p id="formMessage"></p>
+        </form>
+    </section>
+
+    <!-- To-Do List -->
+    <section id="todo">
+        <h2>To-Do List</h2>
+        <div class="todo-container">
+            <input type="text" id="taskInput" placeholder="Enter new task">
+            <button id="addTask">Add Task</button>
+        </div>
+        <ul id="taskList"></ul>
+    </section>
+
+    <script src="script2.js"></script>
+</body>
+</html>
