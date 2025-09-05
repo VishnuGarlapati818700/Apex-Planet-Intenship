@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuizGame</title>
+  <link rel="stylesheet" href="task31.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>QuizGame</h1>
+    <p class="subtitle">LEARN & ANSWER</p>
+
+    <div id="quiz-box">
+      <h2 id="question">Click Start to begin!</h2>
+      <div id="options" class="options"></div>
+      <p id="score" class="score"></p>
+
+      <div class="controls">
+        <button onclick="startGame()">Start Quiz</button>
+        <button onclick="nextQuestion()">Next</button>
+      </div>
+    </div>
+
+    <div id="result-box" class="result-box hidden">
+      <h2>🎉 Quiz Completed!</h2>
+      <p id="final-score"></p>
+      <button onclick="startGame()">Start New Quiz</button>
+    </div>
+
+    <footer>Designed by Vishnu Garlapati🚀</footer>
+  </div>
+
+  <script src="task31.js"></script>
+</body>
+</html>
